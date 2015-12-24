@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/solid_video"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <in.srain.cube.image.CubeImageView
+            android:id="@+id/haoyou_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/haoyou_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="昵称"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <RatingBar
+                android:id="@+id/haoyou_ratingbar"
+                style="@style/MyRatingBar"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/haoyou_nametrue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="王家卫"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:id="@+id/haoyou_lingdui"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:text="王大云"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="1"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:id="@+id/haoyou_quanxian"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:text="领队"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size16" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

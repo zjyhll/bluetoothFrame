@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/popmenu_pingtai"
+            android:checked="false"
+            android:title="选择平台发送"/>
+        <item
+            android:id="@+id/popmenu_phone"
+            android:checked="true"
+            android:title="选择手机发送"/>
+    </group>
+
+</menu>

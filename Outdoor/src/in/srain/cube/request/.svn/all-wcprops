@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request
+END
+DefaultRequestProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/DefaultRequestProxy.java
+END
+CacheAbleRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/CacheAbleRequest.java
+END
+IRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/IRequest.java
+END
+SimpleRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/SimpleRequest.java
+END
+CacheAbleRequestDefaultHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/CacheAbleRequestDefaultHandler.java
+END
+IRequestProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/IRequestProxy.java
+END
+JsonData.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/JsonData.java
+END
+FailData.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/FailData.java
+END
+RequestCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestCacheManager.java
+END
+ICacheAbleRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/ICacheAbleRequest.java
+END
+RequestJsonHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestJsonHandler.java
+END
+RequestData.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestData.java
+END
+RequestProxyFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestProxyFactory.java
+END
+RequestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestBase.java
+END
+RequestManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestManager.java
+END
+RequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestHandler.java
+END
+RequestFinishHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestFinishHandler.java
+END
+CacheAbleRequestJsonHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/CacheAbleRequestJsonHandler.java
+END
+RequestDefaultHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/RequestDefaultHandler.java
+END
+SimpleJsonRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/SimpleJsonRequest.java
+END
+CacheAbleRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/CacheAbleRequestHandler.java
+END

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_refresh_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_otheract" />
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:id="@+id/rsv_youji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_renyuan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/solid_video"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="现有："
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size14" />
+
+                    <TextView
+                        android:id="@+id/tv_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tv1"
+                        android:text="10"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size14" />
+                </RelativeLayout>
+
+                <com.hwacreate.outdoor.view.MyListView
+                    android:id="@+id/lv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:cacheColorHint="@color/transparent"
+                    android:descendantFocusability="blocksDescendants"
+                    android:divider="@color/transparent"
+                    android:dividerHeight="0dp"
+                    android:listSelector="@color/transparent"
+                    android:overScrollMode="never"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/tv_clear_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    android:text="@string/left_gongju_myguardian_tocontact_lanyatitle"
+                    android:textColor="@color/app_green"
+                    android:textSize="@dimen/size18" />
+
+                <TextView
+                    android:id="@+id/tv_tocontact_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@drawable/ic_menu_search_holo_light"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/app_green"
+                    android:textSize="@dimen/size12" />
+            </RelativeLayout>
+
+            <com.hwacreate.outdoor.view.MyListView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@color/transparent"
+                android:dividerHeight="0dp"
+                android:listSelector="@color/transparent"
+                android:visibility="gone" >
+            </com.hwacreate.outdoor.view.MyListView>
+
+            <LinearLayout
+                android:id="@+id/ll_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_saomiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:gravity="center"
+                    android:text="扫描"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:id="@+id/tv_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_menu_paste_holo_light"
+                    android:gravity="center"
+                    android:text="手动输入"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</RelativeLayout>

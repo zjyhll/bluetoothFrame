@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender
+END
+PostRequestSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender/PostRequestSender.java
+END
+RequestSenderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender/RequestSenderFactory.java
+END
+IRequestSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender/IRequestSender.java
+END
+BaseRequestSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender/BaseRequestSender.java
+END
+GetRequestSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender/GetRequestSender.java
+END
+MultiPartRequestSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/request/sender/MultiPartRequestSender.java
+END

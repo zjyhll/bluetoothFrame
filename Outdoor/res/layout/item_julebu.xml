@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <FrameLayout
+        android:id="@+id/julebu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <in.srain.cube.image.CubeImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_clob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="5dp"
+                android:shadowColor="@color/transparent_item"
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:id="@+id/tv_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="8dp"
+                android:background="@color/transparent3"
+                android:drawableLeft="@drawable/zuzhu_join"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="关注"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size16"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical"
+                android:padding="8dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_Province"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_town"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_chengyuanxiangshi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text="成员:"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_chengyuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_huodongxiangshi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text="活动:"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_huodong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size16" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

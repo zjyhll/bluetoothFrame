@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/ll_personinfo"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/wode_imageview_bac"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/wode_duiyuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:shadowColor="@color/transparent_item"
+                        android:shadowDx="4"
+                        android:shadowDy="4"
+                        android:shadowRadius="1"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size18" />
+
+                    <RatingBar
+                        android:id="@+id/wode_ratingbar"
+                        style="@style/MyRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="5" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/left_touxiang" >
+
+                    <com.hwacreate.outdoor.view.CircleImageView
+                        android:id="@+id/wode_imageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/wode_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:shadowColor="@color/transparent_item"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size18" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ll_noview"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/mohubac"
+                    android:scaleType="center" />
+
+                <TextView
+                    android:id="@+id/wode_denglu"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/denglu_withe"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="登录"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size18" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/wode_haoyou"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_item_down"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/wode_haoyou"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:id="@+id/wode_haoyou_xiaoxi"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@drawable/shape_cicle_soild"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wode_julebu"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_item_down"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/wode_julebu"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:id="@+id/wode_julebu_xiaoxi"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@drawable/shape_cicle_soild"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wode_huodong"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_item_down"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:text="@string/wode_huodong"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:id="@+id/wode_huodong_xiaoxi"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@drawable/shape_cicle_soild"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wode_xiaoxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/select_item_down"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/wode_xiaoxi"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:id="@+id/wode_xiaoxi_xiaoxi"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@drawable/shape_cicle_soild"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/videoview" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:id="@+id/wode_xieyouji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_item_down"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/wode_woxiedeyouji"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wode_xieyouji"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:id="@+id/wode_xieyouji_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size14" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:id="@+id/wode_downloudyouji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_item_down"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/wode_xiazaideyouji"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="下载的游记"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:id="@+id/wode_downloud_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size14" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:id="@+id/wode_shouyouji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_item_down"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/wode_shoucangdeyouji"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wode_shouyouji"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:id="@+id/wode_shouyouji_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size14" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:id="@+id/wode_shouhuodong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_item_down"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/wode_shoucangdehuodong"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="@string/wode_shouhuodong"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:id="@+id/wode_shouhuodong_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size14" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/videoview" />
+        </LinearLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</LinearLayout>

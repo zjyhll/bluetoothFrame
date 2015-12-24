@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:id="@+id/fragkan_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/left_tu" />
+
+                <TextView
+                    android:id="@+id/left_banbenhao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/left_image"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="V"
+                    android:textColor="@color/head_edit"
+                    android:textSize="@dimen/size16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center" >
+
+                    <com.hwacreate.outdoor.view.CircleImageView
+                        android:id="@+id/left_image"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/left_logo"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10.0dip"
+                        android:paddingRight="0dp"
+                        android:textColor="@drawable/select_leftfrg_tv_color"
+                        android:textSize="@dimen/size24" />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_personal_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginLeft="@dimen/tensise"
+                        android:background="@drawable/seperline" />
+
+                    <RadioButton
+                        android:id="@+id/tv_huodong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/select_leftfrg_zhuye"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="@string/left_zhuye"
+                        android:textColor="@drawable/select_leftfrg_tv_color"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginLeft="@dimen/tensise"
+                        android:background="@drawable/left_line" />
+
+                    <RadioButton
+                        android:id="@+id/tv_tuzhong "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/select_leftfrg_tuzhong"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="10.0dp"
+                        android:text="@string/left_tuzhong"
+                        android:textColor="@drawable/select_leftfrg_tv_color"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginLeft="@dimen/tensise"
+                        android:background="@drawable/left_line" />
+
+                    <RadioButton
+                        android:id="@+id/tv_shezhi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/select_leftfrg_baoliao"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="@string/left_sehzhi"
+                        android:textColor="@drawable/select_leftfrg_tv_color"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginLeft="@dimen/tensise"
+                        android:background="@drawable/left_line" />
+
+                    <RadioButton
+                        android:id="@+id/tv_gongju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/select_leftfrg_kefu"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="@string/left_gongju"
+                        android:textColor="@drawable/select_leftfrg_tv_color"
+                        android:textSize="@dimen/size16" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginLeft="@dimen/tensise"
+                        android:background="@drawable/left_line" />
+                </RadioGroup>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</RelativeLayout>

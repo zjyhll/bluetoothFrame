@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/huodong_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/allbackground"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/videoview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/huodong_select_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text=""
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <LinearLayout
+                android:id="@+id/huodong_select_two_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="12dp" >
+
+                <TextView
+                    android:id="@+id/huodong_select_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/solid_video_huodong1"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="8dp"
+                    android:text=""
+                    android:textColor="@drawable/select_wenzi_mainfrg"
+                    android:textSize="@dimen/size16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/huodong_select_three_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="12dp" >
+
+                <TextView
+                    android:id="@+id/huodong_select_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/solid_video_huodong2"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="8dp"
+                    android:text=""
+                    android:textColor="@drawable/select_wenzi_mainfrg"
+                    android:textSize="@dimen/size16"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

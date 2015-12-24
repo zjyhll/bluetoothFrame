@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_otheract" />
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:id="@+id/fragkan_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/register_pro_title"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size18" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/register_pro_ruleone"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_ruleone_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/register_pro_ruletwo"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_ruletwo_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulethree"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulethree_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulefour"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulefour_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulefive"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulefive_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulesix"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/register_pro_rulesix_content"
+                android:textColor="@color/content"
+                android:textSize="@dimen/size15" />
+        </LinearLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</LinearLayout>

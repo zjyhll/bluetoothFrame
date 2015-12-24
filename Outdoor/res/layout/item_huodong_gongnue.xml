@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="1dp"
+                android:layout_height="8dp"
+                android:background="@color/app_green" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/timeline_green" />
+
+            <View
+                android:id="@+id/view_2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/app_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/schedu_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/title"
+                android:textSize="@dimen/size15" />
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/schedu_icon1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:scaleType="fitXY" />
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/schedu_icon2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:scaleType="fitXY" />
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/schedu_icon3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:scaleType="fitXY" />
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/schedu_icon4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:scaleType="fitXY" />
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/schedu_icon5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/schedu_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/title"
+                android:textSize="@dimen/size15" />
+
+            <TextView
+                android:id="@+id/schedu_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=""
+                android:textSize="@dimen/size15" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

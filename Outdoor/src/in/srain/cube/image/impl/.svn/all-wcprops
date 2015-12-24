@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl
+END
+DefaultMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl/DefaultMemoryCache.java
+END
+DefaultImageLoadHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl/DefaultImageLoadHandler.java
+END
+SimpleDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl/SimpleDownloader.java
+END
+DefaultImageTaskExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl/DefaultImageTaskExecutor.java
+END
+DefaultImageReSizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl/DefaultImageReSizer.java
+END
+DefaultNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/src/in/srain/cube/image/impl/DefaultNameGenerator.java
+END

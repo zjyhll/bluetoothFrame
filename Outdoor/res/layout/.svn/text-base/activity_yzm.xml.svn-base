@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_otheract" />
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:id="@+id/fragkan_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:id="@+id/phoneNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/solid_login"
+                        android:ems="10"
+                        android:hint="请输入你的手机号"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/size14" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+
+                    <TextView
+                        android:id="@+id/getyzm_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/yaoyaole_yanzhengma"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="getVerifyCode"
+                        android:padding="15dp"
+                        android:text="获取验证码"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/getyzm_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/solid_login"
+                    android:ems="10"
+                    android:hint="请输入短信验证码"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size14" >
+                </com.hwacreate.outdoor.view.CleareditTextView>
+
+                <TextView
+                    android:id="@+id/yzm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/select_vip_goumai"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="下一步"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/xieyi_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/xieyi_gougou"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="我已阅读并接受"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="户外同行用户协议"
+                    android:textColor="@color/app_green"
+                    android:textSize="@dimen/size16" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</LinearLayout>

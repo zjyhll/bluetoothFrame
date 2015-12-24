@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/4451/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl
+END
+ParseOject.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/ParseOject.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/FileUtils.java
+END
+DensityUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/DensityUtils.java
+END
+RegexChk.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3995/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/RegexChk.java
+END
+MyCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/MyCallBack.java
+END
+ThreadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/ThreadManager.java
+END
+BeanUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/BeanUtil.java
+END
+SPUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/SPUtils.java
+END
+DataCleanManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/DataCleanManager.java
+END
+AsyncLoaderImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/AsyncLoaderImage.java
+END
+LogOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/LogOut.java
+END
+ImageToBlur.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/ImageToBlur.java
+END
+BuildProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4451/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/BuildProperties.java
+END
+CommonUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/4451/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/CommonUtility.java
+END
+TimeDateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/TimeDateUtils.java
+END
+UpdateManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/4424/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/UpdateManager.java
+END
+GetQRPic.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/GetQRPic.java
+END
+KeyBoardUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/KeyBoardUtils.java
+END
+FastBlur.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/FastBlur.java
+END
+ImageControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/4144/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/ImageControl.java
+END
+MyHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/MyHandler.java
+END
+NetUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/NetUtil.java
+END
+MyLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/MyLogger.java
+END
+IDCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/outdoor/!svn/ver/4074/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/IDCard.java
+END
+Bimp.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/Bimp.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/StringUtils.java
+END
+CacheSD.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/CacheSD.java
+END
+TimeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3990/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/utl/TimeUtil.java
+END

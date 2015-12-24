@@ -1,0 +1,858 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_otheract" />
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/xinjian_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_fm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_add_youji" />
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/left_touxiang" >
+
+                    <com.hwacreate.outdoor.view.CircleImageView
+                        android:id="@+id/civ_yj"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@+id/tv_scfm"
+                    android:layout_toRightOf="@id/ll"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="10dp"
+                        android:shadowColor="@color/transparent_item"
+                        android:text="2015-08-28"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size15" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:id="@+id/cet_yjbt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_time"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"
+                        android:gravity="left|top"
+                        android:hint="游记标题"
+                        android:padding="10dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="@dimen/size15" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_scfm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="上传封面"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_rjf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0"
+                    android:text="人均费"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/cet_rjf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left"
+                    android:hint="未输入"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:id="@+id/iv_dizhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:hint="请选择游记地址"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_ssjlb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="所属俱乐部"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:id="@+id/iv_jlb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:hint="选择俱乐部"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="游记类型"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:id="@+id/tv_hdlxing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="未选择"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="开始时间"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:id="@+id/tv_starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="未选择"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="结束时间"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:id="@+id/tv_endtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_s"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="未选择"
+                    android:textColor="@color/content"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_hddj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="游记等级"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_hddj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@id/tv_hddj"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:digits="1234"
+                    android:gravity="left"
+                    android:hint="未输入"
+                    android:maxLength="1"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_hdlx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="游记路线"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_hdlx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@id/tv_hdlx"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="未输入"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_yjlc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="游记里程"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_yjlc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@id/tv_yjlc"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="（单位：米）"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_listview"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_hdjj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="游记简介"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_hdjj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@id/tv_hdjj"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="未输入"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" >
+                </com.hwacreate.outdoor.view.CleareditTextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/videoview" />
+
+            <com.hwacreate.outdoor.view.MyListView
+                android:id="@+id/lv_guiji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@color/transparent"
+                android:listSelector="@color/transparent" >
+            </com.hwacreate.outdoor.view.MyListView>
+
+            <TextView
+                android:id="@+id/tv_gj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/solid_video"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="添加轨迹行程"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size15" />
+
+            <com.hwacreate.outdoor.view.MyListView
+                android:id="@+id/lv_first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@color/transparent"
+                android:listSelector="@color/transparent" >
+            </com.hwacreate.outdoor.view.MyListView>
+
+            <TextView
+                android:id="@+id/tv_xc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/solid_video"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="添加行程"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size15" />
+
+            <LinearLayout
+                android:id="@+id/ll_hddr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="游记描述"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_yjms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="未输入"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="出行装备"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_cxzb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="未输入"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="报名须知"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_bmxz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="未输入"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="其 他"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <com.hwacreate.outdoor.view.CleareditTextView
+                    android:id="@+id/ctv_qt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="left|top"
+                    android:hint="未输入"
+                    android:padding="10dp"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="队伍状况"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size15" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text="计划队伍:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <TextView
+                            android:id="@+id/ctv_jhdw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/title"
+                            android:textSize="@dimen/size15" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text="已确认队员:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <TextView
+                            android:id="@+id/ctv_yqrdy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/title"
+                            android:textSize="@dimen/size15" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/tv_nan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/haoyou_nan"
+                                android:gravity="center"
+                                android:padding="3dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/title"
+                                android:textSize="@dimen/size15" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/tv_nv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/haoyou_nv"
+                                android:gravity="center"
+                                android:padding="3dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/title"
+                                android:textSize="@dimen/size15" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:singleLine="true"
+                                android:text="领队:"
+                                android:textColor="@color/content"
+                                android:textSize="@dimen/size15" />
+
+                            <TextView
+                                android:id="@+id/ctv_ld"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/title"
+                                android:textSize="@dimen/size15" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:singleLine="true"
+                                android:text="副队:"
+                                android:textColor="@color/content"
+                                android:textSize="@dimen/size15" />
+
+                            <TextView
+                                android:id="@+id/ctv_fd"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/title"
+                                android:textSize="@dimen/size15" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text="队员:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <GridView
+                            android:id="@+id/gv_dy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:horizontalSpacing="@dimen/space_size"
+                            android:numColumns="5"
+                            android:padding="3dp"
+                            android:stretchMode="columnWidth"
+                            android:verticalSpacing="@dimen/space_size" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text="微信号:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <TextView
+                            android:id="@+id/tv_wxh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:text=""
+                            android:textColor="@color/title"
+                            android:textSize="@dimen/size15" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/select_vip_goumai"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="发布"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size15" />
+        </LinearLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</LinearLayout>

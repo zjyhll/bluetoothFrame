@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_main" />
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/footer_otheract" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/videoview" />
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radiobutton_select_huodong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="true"
+            android:drawableTop="@drawable/select_main_huodong"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_zhuye"
+            android:textColor="@drawable/select_leftfrg_tv_color"
+            android:textSize="@dimen/main_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_select_zhuzhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:clickable="true"
+            android:drawableTop="@drawable/select_main_zhuzhi"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_zuzhi"
+            android:textColor="@drawable/select_leftfrg_tv_color"
+            android:textSize="@dimen/main_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_select_youji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:clickable="true"
+            android:drawableTop="@drawable/select_main_youji"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_youji"
+            android:textColor="@drawable/select_leftfrg_tv_color"
+            android:textSize="@dimen/main_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_select_wode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@null"
+            android:clickable="true"
+            android:drawableTop="@drawable/select_main_wode"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_wode"
+            android:textColor="@drawable/select_leftfrg_tv_color"
+            android:textSize="@dimen/main_radiobutton" />
+    </RadioGroup>
+
+</LinearLayout>

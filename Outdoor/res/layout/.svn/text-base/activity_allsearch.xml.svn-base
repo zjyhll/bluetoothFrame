@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_otheract" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/down"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <com.hwacreate.outdoor.view.CleareditTextView
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/solid_video"
+            android:drawableLeft="@drawable/shousuo"
+            android:hint="@string/zhuzhi_input_keyhint"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColorHighlight="@color/head_edit"
+            android:textColorHint="@color/head_edit"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="0"
+            android:background="@drawable/solid_video"
+            android:padding="5dp"
+            android:text="搜索"
+            android:textColor="@color/title"
+            android:textSize="@dimen/size16" />
+    </LinearLayout>
+
+    <com.hwacreate.outdoor.contactlist.MyGridView
+        android:id="@+id/search_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:verticalSpacing="5dp" />
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/load_more_list_view_detailed_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:visibility="gone" >
+
+        <in.srain.cube.views.loadmore.LoadMoreListViewContainer
+            android:id="@+id/load_more_list_view_detailed_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cube_mints_white" >
+
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/lv_home_detailed_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:descendantFocusability="blocksDescendants"
+                android:divider="@color/transparent"
+                android:dividerHeight="0dp"
+                android:listSelector="@color/transparent"
+                android:overScrollMode="never" />
+        </in.srain.cube.views.loadmore.LoadMoreListViewContainer>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+    <TextView
+        android:id="@+id/search_noresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@color/title"
+        android:textSize="@dimen/size16"
+        android:visibility="gone" />
+
+</LinearLayout>

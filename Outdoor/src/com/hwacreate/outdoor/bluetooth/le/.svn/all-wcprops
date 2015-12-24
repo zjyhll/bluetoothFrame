@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/4221/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/Utils.java
+END
+ByteUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/ByteUtil.java
+END
+Utile.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/outdoor/!svn/ver/4155/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/Utile.java
+END
+BluetoothLeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/outdoor/!svn/ver/4221/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/BluetoothLeService.java
+END
+SampleGattAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/SampleGattAttributes.java
+END
+MipcaActivityCapture.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/MipcaActivityCapture.java
+END
+BleCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/outdoor/!svn/ver/4155/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/BleCommon.java
+END
+LeDeviceListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/le/LeDeviceListAdapter.java
+END

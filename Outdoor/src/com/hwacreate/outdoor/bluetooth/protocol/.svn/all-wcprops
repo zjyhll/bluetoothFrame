@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/4124/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol
+END
+HwtxDataGroupGPSInfoTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataGroupGPSInfoTable.java
+END
+HwtxDataGrpGpsInfoItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataGrpGpsInfoItem.java
+END
+HwtxCommandConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandConstant.java
+END
+HwtxCommandLeaderSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandLeaderSetting.java
+END
+HwtxDataGroupInfoAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataGroupInfoAll.java
+END
+HwtxCommandReceiveGps.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandReceiveGps.java
+END
+HwtxDataFirmwareConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/outdoor/!svn/ver/4113/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataFirmwareConfig.java
+END
+HwtxBluetoothSerializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxBluetoothSerializable.java
+END
+HwtxDataMemberDeviceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataMemberDeviceInfo.java
+END
+HwtxCommandException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandException.java
+END
+HwtxCommandSendWarningPrepare.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandSendWarningPrepare.java
+END
+HwtxCommandSendMemberPrepare.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandSendMemberPrepare.java
+END
+HwtxCommandUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/outdoor/!svn/ver/4115/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandUtility.java
+END
+HwtxDataMemberInfoBtApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataMemberInfoBtApp.java
+END
+HwtxBluetoothTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/outdoor/!svn/ver/4124/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxBluetoothTest.java
+END
+HwtxCommandReceiveWarning.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandReceiveWarning.java
+END
+HwtxCommandAddDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandAddDevice.java
+END
+HwtxDataGpsInfoDataComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataGpsInfoDataComp.java
+END
+HwtxCommandReceiveMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandReceiveMember.java
+END
+HwtxCommandQueryMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/outdoor/!svn/ver/3878/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandQueryMode.java
+END
+HwtxBaseCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxBaseCommand.java
+END
+HwtxDataMemberInfoMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataMemberInfoMap.java
+END
+HwtxDataMemberInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataMemberInfo.java
+END
+HwtxDataMemberInfoApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataMemberInfoApp.java
+END
+HwtxCommandReceiveSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandReceiveSetting.java
+END
+HwtxCommandSendGpsPrepare.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/outdoor/!svn/ver/3566/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxCommandSendGpsPrepare.java
+END
+HwtxTagGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxTagGenerator.java
+END
+HwtxDataGroupInfoAllBtApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/outdoor/!svn/ver/4112/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/bluetooth/protocol/HwtxDataGroupInfoAllBtApp.java
+END

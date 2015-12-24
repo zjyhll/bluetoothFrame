@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_title"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/app_green" >
+
+    <ImageView
+        android:id="@+id/top_iv_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/main_wode"
+        android:padding="5dp"
+        android:src="@drawable/enter_menu_icon" />
+
+    <TextView
+        android:id="@+id/top_itv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/select_back_down_frg"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@drawable/select_wenzi_mainfrg"
+        android:textSize="@dimen/size16"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/top_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/top_ctv_center_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="4dp"
+        android:layout_toLeftOf="@+id/top_tv_right"
+        android:layout_toRightOf="@id/top_iv_btn"
+        android:background="@drawable/solid_video_noview"
+        android:drawableLeft="@drawable/shousuo"
+        android:gravity="center|left"
+        android:hint="@string/main_top_et_hint"
+        android:padding="5dp"
+        android:textColor="@color/head_edit"
+        android:textColorHint="@color/head_edit"
+        android:textSize="@dimen/size14"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/top_tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/chengshi"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/top_tv_right_wode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/top_tv_right_noicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/app_green" />
+
+    <ImageView
+        android:id="@+id/top_iv_right_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/youji_menu_point"
+        android:visibility="gone" />
+
+</RelativeLayout>

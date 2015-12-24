@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="1dp"
+                android:layout_height="8dp"
+                android:background="@color/app_green" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/timeline_green" />
+
+            <View
+                android:id="@+id/view_2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/app_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/title_jiaoyin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_bianji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0"
+                        android:background="@color/transparent4"
+                        android:padding="5dp"
+                        android:text="编辑"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_shanchu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:background="@color/transparent4"
+                        android:padding="5dp"
+                        android:text="删除"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp" >
+
+                    <com.hwacreate.outdoor.view.MyGridView
+                        android:id="@+id/gr_time_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:horizontalSpacing="@dimen/space_size"
+                        android:numColumns="1"
+                        android:padding="3dp"
+                        android:paddingBottom="?android:attr/actionBarSize"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="@dimen/space_size" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/desc_jiaoyin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=""
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size15" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/app_green" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/parentdelete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/touming" >
+
+        <LinearLayout
+            android:id="@+id/ll_popdelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFE0"
+                android:text="删除设备会清除所有与领队宝相关设置"
+                android:textColor="@color/app_green"
+                android:textSize="@dimen/size16" />
+
+            <Button
+                android:id="@+id/btn_pop_delete_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/solid_video"
+                android:text="确认删除设备"
+                android:textColor="@color/red"
+                android:textSize="@dimen/size16" />
+
+            <Button
+                android:id="@+id/btn_pop_delete_cancle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/solid_video"
+                android:text="@string/left_gongju_myguardian_tocontact_pop_cancle"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

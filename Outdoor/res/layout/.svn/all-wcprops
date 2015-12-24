@@ -1,0 +1,1031 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/outdoor/!svn/ver/4424/trunk/OutdoorAndroidProject/Outdoor/res/layout
+END
+item_guiji_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/3603/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_guiji_list.xml
+END
+activity_register_pro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_register_pro.xml
+END
+head_renwu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/outdoor/!svn/ver/4154/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_renwu.xml
+END
+slidingmenumain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/slidingmenumain.xml
+END
+item_huodongxiangqing_typepic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodongxiangqing_typepic.xml
+END
+list_item_folder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/1566/trunk/OutdoorAndroidProject/Outdoor/res/layout/list_item_folder.xml
+END
+activity_huodongxiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_huodongxiangqing.xml
+END
+item_mingdanguanli_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/3603/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_mingdanguanli_list.xml
+END
+head_youjixiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/4424/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_youjixiangqing.xml
+END
+footer_otheract.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/3754/trunk/OutdoorAndroidProject/Outdoor/res/layout/footer_otheract.xml
+END
+main_clippic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/main_clippic.xml
+END
+menu_frame_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/31/trunk/OutdoorAndroidProject/Outdoor/res/layout/menu_frame_left.xml
+END
+list_item_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/612/trunk/OutdoorAndroidProject/Outdoor/res/layout/list_item_image.xml
+END
+pop_deleteequ.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_deleteequ.xml
+END
+pop_youji_menu_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_youji_menu_list.xml
+END
+item_wode_xiaoxi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/3250/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_wode_xiaoxi.xml
+END
+cube_mints_base_block_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_mints_base_block_menu_item.xml
+END
+frag_renwu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/frag_renwu.xml
+END
+activity_jiayouji.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_jiayouji.xml
+END
+skyblue_share_platform_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/outdoor/!svn/ver/664/trunk/OutdoorAndroidProject/Outdoor/res/layout/skyblue_share_platform_list.xml
+END
+item_peoplemingdan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_peoplemingdan.xml
+END
+activity_default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/1566/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_default.xml
+END
+activity_personal_information_mingdan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_personal_information_mingdan.xml
+END
+activity_gui_ji_tu_pian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_gui_ji_tu_pian.xml
+END
+activity_personal_information.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/4307/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_personal_information.xml
+END
+activity_view_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_view_pager.xml
+END
+dialog_normal_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/2176/trunk/OutdoorAndroidProject/Outdoor/res/layout/dialog_normal_layout.xml
+END
+leftfrag_shezhi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_shezhi.xml
+END
+progress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/outdoor/!svn/ver/191/trunk/OutdoorAndroidProject/Outdoor/res/layout/progress.xml
+END
+footer_otheract_youji.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/3754/trunk/OutdoorAndroidProject/Outdoor/res/layout/footer_otheract_youji.xml
+END
+pop_huodongdingdan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/4424/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_huodongdingdan.xml
+END
+activity_set.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/3782/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_set.xml
+END
+contactlist_frist_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/1405/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_frist_list_item.xml
+END
+footer_jiayoujixiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/1389/trunk/OutdoorAndroidProject/Outdoor/res/layout/footer_jiayoujixiangqing.xml
+END
+leftfrag_myguardianfrg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/4318/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_myguardianfrg.xml
+END
+item_youjixiangqing_typetrack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youjixiangqing_typetrack.xml
+END
+cube_ptr_simple_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/73/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_ptr_simple_loading.xml
+END
+cube_material_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_material_dialog.xml
+END
+activity_edit_youji.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/3830/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_edit_youji.xml
+END
+cube_ptr_classic_default_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/outdoor/!svn/ver/1389/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_ptr_classic_default_header.xml
+END
+activity_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_listview.xml
+END
+item_haoyou.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/3603/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_haoyou.xml
+END
+cube_mints_update_notify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_mints_update_notify.xml
+END
+item_huodong_dongtai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/3830/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodong_dongtai.xml
+END
+item_huodong_dongtai_control.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/2258/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodong_dongtai_control.xml
+END
+activity_youji_sousuo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_youji_sousuo.xml
+END
+item_xieyouji_typefootprints_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/4207/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_xieyouji_typefootprints_item.xml
+END
+cube_mints_base_content_frame_with_title_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_mints_base_content_frame_with_title_header.xml
+END
+popwindow_usershezhi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/popwindow_usershezhi.xml
+END
+dt_dialog_view_input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/dt_dialog_view_input.xml
+END
+item_homelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/4144/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_homelist.xml
+END
+item_aerainfo_lv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_aerainfo_lv.xml
+END
+leftfrag_tuzhong.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/4423/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_tuzhong.xml
+END
+activity_shezhi_yijian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_shezhi_yijian.xml
+END
+activity_capture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_capture.xml
+END
+item_youji_timelane_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youji_timelane_listview.xml
+END
+item_huodongxiangqing_typecost.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/2563/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodongxiangqing_typecost.xml
+END
+item_tuzhong_shilian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/2356/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_tuzhong_shilian.xml
+END
+progress_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/2808/trunk/OutdoorAndroidProject/Outdoor/res/layout/progress_dialog.xml
+END
+item_nodata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_nodata.xml
+END
+activity_tianjian_tong_xing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_tianjian_tong_xing.xml
+END
+contactlist_overlay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/940/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_overlay.xml
+END
+activity_youji_xiangqin2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/1770/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_youji_xiangqin2.xml
+END
+activity_yzm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_yzm.xml
+END
+activity_offline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/4423/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_offline.xml
+END
+activity_area_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/4207/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_area_info.xml
+END
+activity_mima.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_mima.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/2578/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_main.xml
+END
+mainfrag_wode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/3830/trunk/OutdoorAndroidProject/Outdoor/res/layout/mainfrag_wode.xml
+END
+cube_mints_base_fragment_block_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_mints_base_fragment_block_menu.xml
+END
+pop_xiazai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_xiazai.xml
+END
+head_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_main.xml
+END
+item_dituliebiao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/3432/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_dituliebiao.xml
+END
+pop_tianjiatongxing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/4155/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_tianjiatongxing.xml
+END
+mainfrag_zuzhi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/2262/trunk/OutdoorAndroidProject/Outdoor/res/layout/mainfrag_zuzhi.xml
+END
+contactlist_recent_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_recent_city.xml
+END
+activity_track.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/1682/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_track.xml
+END
+item_communication_other_lv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_communication_other_lv.xml
+END
+offline_localmap_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/3432/trunk/OutdoorAndroidProject/Outdoor/res/layout/offline_localmap_list.xml
+END
+activity_xin_jian_you_jizjy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/4424/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_xin_jian_you_jizjy.xml
+END
+pop_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_location.xml
+END
+item_huodongxiangqing_other.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/2600/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodongxiangqing_other.xml
+END
+item_youji_xiangqin2_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youji_xiangqin2_list.xml
+END
+item_tongxingduiwu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/4313/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_tongxingduiwu.xml
+END
+poptong_xingduiwu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/poptong_xingduiwu.xml
+END
+item_contactmyguardian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_contactmyguardian.xml
+END
+activity_youji_xinjian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_youji_xinjian.xml
+END
+item_duiyuan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/2865/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_duiyuan.xml
+END
+activity_shezhi_guanyu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/1938/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_shezhi_guanyu.xml
+END
+tesrt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/outdoor/!svn/ver/1494/trunk/OutdoorAndroidProject/Outdoor/res/layout/tesrt.xml
+END
+head_zhuzhi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_zhuzhi.xml
+END
+item_typetrack_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/3557/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_typetrack_item.xml
+END
+activity_youji_guiji.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_youji_guiji.xml
+END
+refresh_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/31/trunk/OutdoorAndroidProject/Outdoor/res/layout/refresh_header.xml
+END
+skyblue_editpage_inc_image_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/664/trunk/OutdoorAndroidProject/Outdoor/res/layout/skyblue_editpage_inc_image_layout.xml
+END
+contactlist_total_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/1389/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_total_item.xml
+END
+listitem_device.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/1692/trunk/OutdoorAndroidProject/Outdoor/res/layout/listitem_device.xml
+END
+item_xinjianyoujihd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/3603/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_xinjianyoujihd.xml
+END
+leftfrag_zhengduichuxing_actmanage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/outdoor/!svn/ver/1770/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_zhengduichuxing_actmanage.xml
+END
+leftfrag_zhengduichuxing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_zhengduichuxing.xml
+END
+skyblue_editpage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/664/trunk/OutdoorAndroidProject/Outdoor/res/layout/skyblue_editpage.xml
+END
+pop_sos.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_sos.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_login.xml
+END
+leftfrag_myguardianfrg_tocontact.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_myguardianfrg_tocontact.xml
+END
+item_youjixiangqing_typefootprints_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/outdoor/!svn/ver/4144/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youjixiangqing_typefootprints_item.xml
+END
+head_huodongxiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_huodongxiangqing.xml
+END
+item_huodongxiangqing_typestatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodongxiangqing_typestatus.xml
+END
+contactlist_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/1389/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_list_item.xml
+END
+grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/outdoor/!svn/ver/3323/trunk/OutdoorAndroidProject/Outdoor/res/layout/grid_item.xml
+END
+mainfrag_youji.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/1770/trunk/OutdoorAndroidProject/Outdoor/res/layout/mainfrag_youji.xml
+END
+item_julebu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_julebu.xml
+END
+header_renwufrg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/header_renwufrg.xml
+END
+refresh_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/31/trunk/OutdoorAndroidProject/Outdoor/res/layout/refresh_footer.xml
+END
+leftfrag_huodong.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/leftfrag_huodong.xml
+END
+skyblue_share_platform_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/3788/trunk/OutdoorAndroidProject/Outdoor/res/layout/skyblue_share_platform_list_item.xml
+END
+cube_mints_base_header_bar_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_mints_base_header_bar_title.xml
+END
+dt_dialog_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/3439/trunk/OutdoorAndroidProject/Outdoor/res/layout/dt_dialog_view.xml
+END
+activity_detailed_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/3868/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_detailed_list.xml
+END
+activity_basemap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/3413/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_basemap.xml
+END
+activity_down_offline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_down_offline.xml
+END
+activity_display_dongtai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/4144/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_display_dongtai.xml
+END
+activity_xinjiaxingcheng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_xinjiaxingcheng.xml
+END
+contactlist_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_main.xml
+END
+contactlist_item_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/outdoor/!svn/ver/1405/trunk/OutdoorAndroidProject/Outdoor/res/layout/contactlist_item_city.xml
+END
+cube_views_load_more_default_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_views_load_more_default_footer.xml
+END
+item_huodongxiangqing_typeraiders.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodongxiangqing_typeraiders.xml
+END
+xlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/1028/trunk/OutdoorAndroidProject/Outdoor/res/layout/xlistview_header.xml
+END
+activity_youjidetailed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/1506/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_youjidetailed.xml
+END
+head_homefrg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_homefrg.xml
+END
+activity_detailed_xiaoxi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_detailed_xiaoxi.xml
+END
+item_youjilist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youjilist.xml
+END
+activity_allsearch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/4105/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_allsearch.xml
+END
+activity_haoyoudetailed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/3745/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_haoyoudetailed.xml
+END
+item_tuzhong.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outdoor/!svn/ver/3861/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_tuzhong.xml
+END
+cube_mints_base_list_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/cube_mints_base_list_menu_item.xml
+END
+skyblue_share_actionbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/664/trunk/OutdoorAndroidProject/Outdoor/res/layout/skyblue_share_actionbar.xml
+END
+item_homelist_zhuye.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/4144/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_homelist_zhuye.xml
+END
+footer_huodongxiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/2706/trunk/OutdoorAndroidProject/Outdoor/res/layout/footer_huodongxiangqing.xml
+END
+head_otheract.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_otheract.xml
+END
+activity_kexuanhuodong.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/1770/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_kexuanhuodong.xml
+END
+mainfrag_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outdoor/!svn/ver/1770/trunk/OutdoorAndroidProject/Outdoor/res/layout/mainfrag_home.xml
+END
+item_communication_self_lv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_communication_self_lv.xml
+END
+list_item_camera.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/439/trunk/OutdoorAndroidProject/Outdoor/res/layout/list_item_camera.xml
+END
+skyblue_editpage_at_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/outdoor/!svn/ver/664/trunk/OutdoorAndroidProject/Outdoor/res/layout/skyblue_editpage_at_layout.xml
+END
+activity_dian_ming.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/outdoor/!svn/ver/3831/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_dian_ming.xml
+END
+activity_shou_dui_dian_ping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_shou_dui_dian_ping.xml
+END
+activity_youji_sousuo_body.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_youji_sousuo_body.xml
+END
+xlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outdoor/!svn/ver/1028/trunk/OutdoorAndroidProject/Outdoor/res/layout/xlistview_footer.xml
+END
+item_youjixiangqing_typefootprints.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youjixiangqing_typefootprints.xml
+END
+activity_shezhi_help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/1387/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_shezhi_help.xml
+END
+activity_communication.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/3594/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_communication.xml
+END
+cmp_customer_actionbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/cmp_customer_actionbar.xml
+END
+activity_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/3788/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_index.xml
+END
+frag_baodao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/3686/trunk/OutdoorAndroidProject/Outdoor/res/layout/frag_baodao.xml
+END
+item_youjixiangqing_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/outdoor/!svn/ver/3339/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youjixiangqing_image.xml
+END
+pop_huodongxiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_huodongxiangqing.xml
+END
+item_youjixiangqing_typetrack_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/outdoor/!svn/ver/4144/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_youjixiangqing_typetrack_item.xml
+END
+activity_set_ban_lv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/4407/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_set_ban_lv.xml
+END
+item_zhuzhilist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/4111/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_zhuzhilist.xml
+END
+spinner_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/155/trunk/OutdoorAndroidProject/Outdoor/res/layout/spinner_item.xml
+END
+head_completeac.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outdoor/!svn/ver/3358/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_completeac.xml
+END
+layout_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/outdoor/!svn/ver/3830/trunk/OutdoorAndroidProject/Outdoor/res/layout/layout_menu.xml
+END
+item_huodong_gongnue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/3830/trunk/OutdoorAndroidProject/Outdoor/res/layout/item_huodong_gongnue.xml
+END
+activity_shishidongtai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_shishidongtai.xml
+END
+activity_input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_input.xml
+END
+pop_wode_xieyouji_xinjian_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/outdoor/!svn/ver/4149/trunk/OutdoorAndroidProject/Outdoor/res/layout/pop_wode_xieyouji_xinjian_list.xml
+END
+head_julebuxiangqing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/outdoor/!svn/ver/3745/trunk/OutdoorAndroidProject/Outdoor/res/layout/head_julebuxiangqing.xml
+END
+spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/outdoor/!svn/ver/155/trunk/OutdoorAndroidProject/Outdoor/res/layout/spinner.xml
+END
+activity_you_ji_xiang_qing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/outdoor/!svn/ver/3754/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_you_ji_xiang_qing.xml
+END
+activity_shezhi_guanyushebei.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outdoor/!svn/ver/1939/trunk/OutdoorAndroidProject/Outdoor/res/layout/activity_shezhi_guanyushebei.xml
+END
+fragment_multi_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/outdoor/!svn/ver/603/trunk/OutdoorAndroidProject/Outdoor/res/layout/fragment_multi_image.xml
+END

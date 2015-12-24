@@ -1,0 +1,34 @@
+9
+
+dir
+4455
+http://192.168.1.150:8080/svn/outdoor/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/ormlite
+http://192.168.1.150:8080/svn/outdoor
+
+
+
+2015-12-10T10:33:25.775438Z
+4207
+zhangtai
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0b1cf994-3623-4782-b1f6-54586fcce599
+
+bean
+dir
+
+db
+dir
+

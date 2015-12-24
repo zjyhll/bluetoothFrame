@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_item_down"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_zhuzhi_tab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/zhuzhi_tuijian"
+                android:gravity="center"
+                android:text="@string/zhuzhifrg_tap3"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <View
+                android:id="@+id/zuzhi_tuijian_view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/app_green"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_item_down"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_zhuzhi_tab2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/zhuzhi_tongcheng"
+                android:gravity="center"
+                android:text="@string/zhuzhifrg_tap2"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <View
+                android:id="@+id/zuzhi_tongcheng_view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/app_green"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_item_down"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_zhuzhi_tab3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableTop="@drawable/zhuzhi_wode"
+                android:gravity="center"
+                android:text="@string/zhuzhifrg_tap1"
+                android:textColor="@color/title"
+                android:textSize="@dimen/size16" />
+
+            <View
+                android:id="@+id/zuzhi_wode_view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/app_green"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/videoview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/down"
+        android:padding="5dp" >
+
+        <com.hwacreate.outdoor.view.CleareditTextView
+            android:id="@+id/et_input_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/solid_video"
+            android:drawableLeft="@drawable/shousuo"
+            android:hint="@string/zhuzhi_input_keyhint"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColorHighlight="@color/head_edit"
+            android:textColorHint="@color/head_edit"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

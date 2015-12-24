@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/head_otheract" />
+
+    <EditText
+        android:id="@+id/sh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_margin="10dip"
+        android:background="@drawable/solid_video"
+        android:hint="输入城市名或拼音"
+        android:padding="10dip"
+        android:textColor="@color/title"
+        android:textSize="@dimen/size16" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sh"
+        android:layout_marginTop="7dp"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <ListView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sh"
+        android:layout_marginTop="7dp"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_noresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sh"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="抱歉,暂时没有找到相关城市"
+        android:textColor="@color/title"
+        android:textSize="@dimen/size16"
+        android:visibility="gone" />
+
+    <com.hwacreate.outdoor.contactlist.MyLetterListView
+        android:id="@+id/MyLetterListView01"
+        android:layout_width="25dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/sh"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="7dp"
+        android:overScrollMode="never" />
+
+</RelativeLayout>

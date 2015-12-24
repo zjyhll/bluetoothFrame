@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_otheract" />
+
+    <com.hwacreate.outdoor.view.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="游记封面"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size16" />
+
+                <GridView
+                    android:id="@+id/grid_youji_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clipToPadding="false"
+                    android:horizontalSpacing="@dimen/space_size"
+                    android:numColumns="4"
+                    android:overScrollMode="never"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="@dimen/space_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="地域:"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size15" />
+
+                    <TextView
+                        android:id="@+id/tv_youji_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@id/tv11"
+                        android:text="请选择城市"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="活动:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <TextView
+                            android:id="@+id/tv_youji_huodongtype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="请选择活动"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="景区:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <com.hwacreate.outdoor.view.CleareditTextView
+                            android:id="@+id/ct_youji_jingqu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/transparent"
+                            android:hint="请输入景区"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size16" >
+                        </com.hwacreate.outdoor.view.CleareditTextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:drawableLeft="@drawable/youjixiangqing_time"
+                        android:drawablePadding="4dp"
+                        android:gravity="center"
+                        android:text="开始时间:"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size14" />
+
+                    <TextView
+                        android:id="@+id/tv_start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="选择开始时间"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:drawableLeft="@drawable/youjixiangqing_time"
+                        android:drawablePadding="4dp"
+                        android:gravity="center"
+                        android:text="结束时间:"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size14" />
+
+                    <TextView
+                        android:id="@+id/tv_end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="选择结束时间"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="路径:"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size15" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:hint="请输入路径"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="全程:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size15" />
+
+                        <com.hwacreate.outdoor.view.CleareditTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/transparent"
+                            android:hint="35Km" 
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size16" >
+                        </com.hwacreate.outdoor.view.CleareditTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="历时:"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size14" />
+
+                        <com.hwacreate.outdoor.view.CleareditTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/transparent"
+                            android:hint="35小时"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size16" >
+                        </com.hwacreate.outdoor.view.CleareditTextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="行程描述"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:hint="请输入行程描述"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="43个脚印"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <com.hwacreate.outdoor.view.MyListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:cacheColorHint="@color/transparent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:divider="@color/transparent"
+                        android:listSelector="@color/transparent"
+                        android:overScrollMode="never" >
+                    </com.hwacreate.outdoor.view.MyListView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/jiahao" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="活动简介"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:hint="请输入活动简介"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+
+                    <com.hwacreate.outdoor.view.MyListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:cacheColorHint="@color/transparent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:divider="@color/transparent"
+                        android:listSelector="@color/transparent"
+                        android:overScrollMode="never" >
+                    </com.hwacreate.outdoor.view.MyListView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/jiahao" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="活动日期安排"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:hint="请输入活动日期安排"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+
+                    <com.hwacreate.outdoor.view.MyListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:cacheColorHint="@color/transparent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:divider="@color/transparent"
+                        android:listSelector="@color/transparent"
+                        android:overScrollMode="never" >
+                    </com.hwacreate.outdoor.view.MyListView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/jiahao" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="活动装备"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:hint="请输入活动装备"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="活动后勤"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <com.hwacreate.outdoor.view.CleareditTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:hint="请输入活动后勤"
+                        android:textColor="@color/content"
+                        android:textSize="@dimen/size16" >
+                    </com.hwacreate.outdoor.view.CleareditTextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="队伍状况"
+                        android:textColor="@color/title"
+                        android:textSize="@dimen/size20" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="计划队伍人数:"
+                            android:textColor="@color/title"
+                            android:textSize="@dimen/size14" />
+
+                        <com.hwacreate.outdoor.view.CleareditTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/transparent"
+                            android:hint="计划人数"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size10" >
+                        </com.hwacreate.outdoor.view.CleareditTextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="已确认队员："
+                            android:textColor="@color/title"
+                            android:textSize="@dimen/size14" />
+
+                        <com.hwacreate.outdoor.view.CleareditTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/transparent"
+                            android:hint="实际人数"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size12" >
+                        </com.hwacreate.outdoor.view.CleareditTextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="副队:"
+                            android:textColor="@color/title"
+                            android:textSize="@dimen/size20" />
+
+                        <com.hwacreate.outdoor.view.CleareditTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/transparent"
+                            android:hint="0"
+                            android:textColor="@color/content"
+                            android:textSize="@dimen/size16" >
+                        </com.hwacreate.outdoor.view.CleareditTextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:text="男："
+                                android:textColor="@color/title"
+                                android:textSize="@dimen/size20" />
+
+                            <com.hwacreate.outdoor.view.CleareditTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:background="@color/transparent"
+                                android:hint="男生人数"
+                                android:textColor="@color/content"
+                                android:textSize="@dimen/size16" >
+                            </com.hwacreate.outdoor.view.CleareditTextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:text="女："
+                                android:textColor="@color/title"
+                                android:textSize="@dimen/size20" />
+
+                            <com.hwacreate.outdoor.view.CleareditTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:background="@color/transparent"
+                                android:hint="女生人数"
+                                android:textColor="@color/content"
+                                android:textSize="@dimen/size16" >
+                            </com.hwacreate.outdoor.view.CleareditTextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.hwacreate.outdoor.view.ReboundScrollView>
+
+</LinearLayout>

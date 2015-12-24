@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/geren_pop_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/touming" >
+
+        <LinearLayout
+            android:id="@+id/geren_pop_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/videoview" >
+
+                <TextView
+                    android:id="@+id/geren_qu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/geren_qu"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size16" />
+
+                <TextView
+                    android:id="@+id/geren_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    android:text="12"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size16"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/geren_wan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:text="@string/geren_wan"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size16" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/pickerview"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <com.hwacreate.outdoor.view.PickerView
+                    android:id="@+id/pickerviewleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/pickerviewtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:text=":"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/size18"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <com.hwacreate.outdoor.view.PickerView
+                    android:id="@+id/pickerviewright"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <com.hwacreate.outdoor.view.PickerView
+                    android:id="@+id/pickerviewright_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

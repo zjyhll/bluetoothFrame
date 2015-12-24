@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/head_otheract" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:id="@+id/Zoom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <Button
+            android:id="@+id/Zoom_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/solid_video"
+            android:text="验证失败"
+            android:textColor="@color/title"
+            android:textSize="@dimen/size16" />
+
+        <Button
+            android:id="@+id/Zoom_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/solid_video"
+            android:text="验证成功"
+            android:textColor="@color/title"
+            android:textSize="@dimen/size16" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ZoomControlView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_above="@id/Zoom_view"
+        android:layout_alignParentRight="true" >
+
+        <Button
+            android:id="@+id/zoomin"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@drawable/zoomin_seletor" />
+
+        <Button
+            android:id="@+id/zoomout"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_below="@+id/zoomin"
+            android:background="@drawable/zoomout_seletor" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera
+END
+FlashlightManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera/FlashlightManager.java
+END
+CameraManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera/CameraManager.java
+END
+AutoFocusCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera/AutoFocusCallback.java
+END
+CameraConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera/CameraConfigurationManager.java
+END
+PlanarYUVLuminanceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera/PlanarYUVLuminanceSource.java
+END
+PreviewCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/outdoor/!svn/ver/3456/trunk/OutdoorAndroidProject/Outdoor/src/com/hwacreate/outdoor/zxing/camera/PreviewCallback.java
+END

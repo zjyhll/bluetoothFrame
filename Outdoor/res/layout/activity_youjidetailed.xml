@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allbackground"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/head_otheract" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:background="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="费用"
+        android:visibility="gone" />
+
+</RelativeLayout>
